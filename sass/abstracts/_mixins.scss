@@ -40,7 +40,7 @@ ORDER: BASE + typography > general lauout > components
     } //600px
   }
   @if $breakpoint == tab-port {
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 56.25em), only screen and (hover: none) {
       @content;
     } //900px
   }
@@ -54,5 +54,4 @@ ORDER: BASE + typography > general lauout > components
       @content;
     } //1800px
   }
-  
 }

@@ -36,6 +36,8 @@ body {
   }
 }
 
+
+// Change the background color of the selected text
 ::selection {
   background-color: $color-primary;
   color: $color-white;
